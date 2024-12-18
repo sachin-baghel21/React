@@ -5,9 +5,9 @@ import { Link } from 'react-router-dom'; // Import Link component for navigation
 
 export default function Header({ toggleDarkMode, isDarkMode }) {
   return (
-    <nav className="bg-indigo-500 z-[20] shadow-md py-2 px-4 flex justify-between items-center sticky top-0 transition duration-300">
+    <nav className="bg-indigo-500 z-[20] shadow-md dark:bg-gray-800 py-2 px-4 flex justify-between items-center sticky top-0 transition duration-300">
       {/* Logo */}
-      <h1 className="text-2xl font-bold text-white">Webdcs</h1>
+      <h1 className="text-2xl font-bold text-white">webdcs</h1>
 
       {/* Navigation Links and Dark Mode Toggle */}
       <div className="flex gap-4 items-center">
