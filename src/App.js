@@ -27,7 +27,7 @@ function App() {
   };
 
   return (
-    <Router>
+ 
       <div className={`min-h-screen transition-all duration-500 ${isDarkMode ? 'bg-gray-900 text-white' : 'bg-white text-gray-900'}`}>
         {/* Header will only show when authenticated */}
         {isAuthenticated && (
@@ -87,7 +87,7 @@ function App() {
         {/* Footer will only show when authenticated */}
         {isAuthenticated && <Footer />}
       </div>
-    </Router>
+    
   );
 }
 
